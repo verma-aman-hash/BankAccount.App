@@ -10,8 +10,8 @@ public class BankAccountApp implements Runnable{
 		Thread newthread2 = new Thread();
 		newthread1.start();
 		newthread2.start();
-		List<String[]> newAccountHolder = Utility.read(file);
-		Utility.loadCustomer(newAccountHolder);
+		List<String[]> newAccountHolder = AccountUtility.read(file);
+		AccountUtility.loadCustomer(newAccountHolder);
 		
 		
 		

@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Utility {
+public class AccountUtility {
 	public static void loadCustomer(List<String[]> newAccountHolder ) throws InterruptedException {
 		List<Account> account = new LinkedList<Account>();
 
